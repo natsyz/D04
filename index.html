@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--Header or Navbar-->
+<header>
+  <!--navbar-->
+  <div class="container">
+        <div class="header-left">
+          <p class="logo">
+            <h3>Kuliner D04</h3>
+          </p>
+        </div>
+        <div class="topnav" id="myTopnav">
+          <a href="#tentang">Tentang</a>
+          <a href="#pesan">Pesan</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+  </div>
+
+  <!-- home screen-->
+    <div class="top-wrapper">
+      <div class="container">
+        <p>Makanan Khas</p>
+        <p><b>Indonesia</b> Terpopuler</p>
+      </div>
+    </div>
+</header>
+
+<!--Main-->
+<main>
+  <div id="tentang">
+    <!--untuk main-->
+    <div class="daftar">
+      <div class="container">
+        <div class="heading">
+          <h3 class="section-title">Daftar Makanan</h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="img/rendang.jpg">
+               <p><b>Rendang</b></p>
+            </div>
+            <p class="txt-contents">Rendang adalah masakan daging yang berasal dari Minangkabau. Masakan ini dihasilkan dari proses memasak suhu rendah dalam waktu lama menggunakan aneka rempah-rempah dan santan.</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="img/nasigoreng.jpg">
+              <p><b>Nasi Goreng</b></p>
+            </div>
+            <p class="txt-contents">Nasi goreng adalah sebuah makanan berupa nasi yang digoreng dan diaduk dalam minyak goreng atau margarin, biasanya ditambah kecap manis, bawang merah, bawang putih, asam jawa, lada dan bumbu-bumbu lainnya.</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="img/sate.jpg">
+               <p><b>Sate</b></p>
+            </div>
+            <p class="txt-contents">Sate atau satai adalah makanan yang terbuat dari daging yang dipotong kecil-kecil dan ditusuk sedemikian rupa dengan tusukan lidi tulang daun kelapa atau bambu kemudian dipanggang menggunakan bara arang kayu.</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="img/gadogado.jpg">
+              <p><b>Gado-gado</b></p>
+            </div>
+            <p class="txt-contents">Gado-gado adalah makanan yang berupa sayur-sayuran yang direbus dan dicampur jadi satu, dengan bumbu kacang disertai irisan telur kemudian di atasnya ditaburi bawang goreng.</p>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="img/soto.jpg">
+              <p><b>Soto</b></p>
+            </div>
+            <p class="txt-contents">Soto, atau coto adalah makanan khas Indonesia seperti sop yang terbuat dari kaldu daging dan sayuran. Daging yang paling sering digunakan adalah daging sapi dan ayam, tetapi ada pula yang menggunakan daging kambing.  </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="pesan">
+    <div class="form">
+      <div class="container">
+        <h3 class="section-title"> Saran Makanan</h3>
+        <p> Nama Makanan </p>
+        <input class="contact-submit">
+        <p> Deskripsi Makanan </p>
+        <textarea></textarea>
+        <p></p>
+        <input class="btn" type="submit" value="kirim">
+      </div>
+    </div>
+      <!--untuk tambahan main-->
+  </div>
+</main>
+
+<!--footer-->
+<footer>
+  <div class="container">
+    <div class="text1">
+      <p>
+        <h3>Kuliner D04</h3>
+      </p>
+    </div>
+  </div>
+ </footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
